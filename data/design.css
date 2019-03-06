@@ -1,0 +1,33 @@
+
+graph{
+    fill-color:gray;
+    padding : 40px;
+
+}
+
+node{
+    size : 20px,30px;
+    text-size : 14px;
+    text-alignment : at-right;
+    text-offset : 5px, 10px;
+    fill-color: blue;
+}
+
+edge {
+        fill-color : brown;
+        size : 3px;
+
+}
+
+/* node#a{
+shape : box;
+fill-color : blue;
+}*/
+node:clicked {
+	fill-color: green;
+}
+
+node.important{
+    size : 15px;
+    fill-color : blue;
+}
